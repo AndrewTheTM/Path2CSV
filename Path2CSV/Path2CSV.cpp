@@ -29,8 +29,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	of.open(argv[2],iostream::trunc);
 	while((prrn=PathReaderReadNext(path,&prd))>0){
 		countPaths++;
-		if(countPaths % 100) 
-			of << prd.I << ",";
+		if(countPaths % 1000==0) 
+			cout << "Path " << countPaths << " of " << nPaths << endl;
+		of << prd.I << ",";
 		for(int pn=0;pn<prrn;pn++){ 
 			of << prd.nodes[pn];
 			if(prd.nodes[pn]!=prd.J) 
