@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Path2CSV", "Path2CSV\Path2CSV.vcxproj", "{D9782223-7ECB-4DCA-BE4B-EC9D0D8D7008}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9782223-7ECB-4DCA-BE4B-EC9D0D8D7008}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D9782223-7ECB-4DCA-BE4B-EC9D0D8D7008}.Debug|Win32.Build.0 = Debug|Win32
+		{D9782223-7ECB-4DCA-BE4B-EC9D0D8D7008}.Release|Win32.ActiveCfg = Release|Win32
+		{D9782223-7ECB-4DCA-BE4B-EC9D0D8D7008}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
